@@ -12,7 +12,7 @@ function part2() {
     dollar = prompt("Enter dollar", "1");
   } while (dollar === null);
 
-  alert(euro + " euros are equal " + euro*EURO + "grn. " +
-  dollar + " dollars are equal " + dollar*DOLLAR + "grn. " +
-  "1 euro is equal " + EURO/DOLLAR + " dollars");
+  alert(euro + " euros are equal " + (euro*EURO).toFixed(3) + "grn. " +
+  dollar + " dollars are equal " + (dollar*DOLLAR).toFixed(3) + "grn. " +
+  "1 euro is equal " + (EURO/DOLLAR).toFixed(3) + " dollars");
 }
